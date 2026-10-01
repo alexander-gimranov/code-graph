@@ -1,0 +1,31 @@
+{
+  "mysql": {
+    "host": "localhost",
+    "name": "your_database",
+    "user": "claude_ro",
+    "pass": ""
+  },
+  "dbPath": "code_graph.sqlite",
+  "scanDirs": {
+    "php": ["src", "app"],
+    "js": ["resources/js"],
+    "go": ["cmd", "internal"],
+    "rust": ["src"]
+  },
+  "scanExts": {
+    "php": ["php"],
+    "js": ["ts", "tsx", "js", "jsx"],
+    "go": ["go"],
+    "rust": ["rs"]
+  },
+  "sqlDirs": ["src"],
+  "searchDirs": ["src", "resources/js"],
+  "extensions": ["php", "js", "ts", "tsx", "go", "rs", "css", "scss", "sql", "md"],
+  "routeFile": "routes/web.php",
+  "embed": {
+    "provider": "",
+    "key": "",
+    "ollamaURL": "http://localhost:11434",
+    "ollamaModel": "nomic-embed-text"
+  }
+}

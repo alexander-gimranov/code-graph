@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+.claude/
+.cursor/
+claudeSearch.exe
+*.sqlite
+*.sqlite-*
+code_graph.sqlite
+config.json
+codeGraphIndexer
+codeGraphIndexer.exe
+codeGraphIndexer-linux-*
+codeGraphIndexer-darwin-*
+codeGraphIndexer-windows-*
+dist/
